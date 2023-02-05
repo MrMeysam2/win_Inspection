@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{EE3D3957-B812-41B0-A53A-CF5E5BE419D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMinProject", "TestMinProject\TestMinProject.csproj", "{2FA23E70-BC41-4B19-9D21-F505F24D11C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestSolid", "TestMinProject\TestSolid.csproj", "{2FA23E70-BC41-4B19-9D21-F505F24D11C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

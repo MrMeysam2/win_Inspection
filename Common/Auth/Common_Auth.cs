@@ -8,6 +8,13 @@ namespace Common.Auth
 {
     public class Common_Auth
     {
+        public class Register
+        {
 
+        }
+        public class Login
+        {
+
+        }
     }
 }

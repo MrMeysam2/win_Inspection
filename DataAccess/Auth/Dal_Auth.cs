@@ -11,15 +11,7 @@ namespace DataAccess.Auth
     {
         public bool Register(string username, string password)
         {
-            string connectionString = "Data Source=.;Initial Catalog=Northwind;Integrated Security=SSPI";
-            using (SqlConnection connection = new SqlConnection(connectionString))
-            {
-                connection.Open();
-                    SqlCommand cmd = new SqlCommand("", connection);
-                connection.Close();
-                
-            }
-            
+
             return true;
         }
     }

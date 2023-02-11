@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Business.Auth;
+using Common;
 using win_Inspection.FormAuth;
 
 namespace win_Inspection
@@ -25,10 +26,28 @@ namespace win_Inspection
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            resLogin = bll.Register(txtUsername.ToString(), txtPassword.ToString());
-            if (resLogin)
+            try
             {
-                frmRegister.ShowDialog();
+                Common.cmnUsers cmn = new Common.cmnUsers();
+                if (!string.IsNullOrEmpty(txtUsername.Text) && !string.IsNullOrEmpty(txtPassword.Text))
+                {
+                    cmn.Username = txtUsername.Text.Trim();
+                    cmn.Password = txtPassword.Text.Trim();
+                }
+                else
+                {
+                    MessageBox.Show("لطفا نام کاربری و گذرواژه را وارد کنید");
+                    return;
+                }
+                cmnUsers ret = Bll_Auth.CheckLogin(cmn);
+                if (ret is null)
+                    MessageBox.Show("خطا در اطلاعات ورودی");
+                else
+                    MessageBox.Show("لاگین با موفقیت");
+            }
+            catch
+            {
+                MessageBox.Show("خطا در ثبت اطلاعات");
             }
         }
     }

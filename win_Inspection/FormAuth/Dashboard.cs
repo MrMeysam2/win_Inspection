@@ -10,11 +10,12 @@ using System.Windows.Forms;
 
 namespace win_Inspection.FormAuth
 {
-    public partial class frmRegister : Form
+    public partial class frmDashboard : Form
     {
-        public frmRegister()
+        public frmDashboard()
         {
             InitializeComponent();
         }
+
     }
 }

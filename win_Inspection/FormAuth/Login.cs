@@ -15,9 +15,8 @@ namespace win_Inspection
 {
     public partial class frmLogin : Form
     {
-        Register frmRegister = new Register();
-        Bll_Auth bll = new Bll_Auth();
-        bool resLogin;
+        frmRegister frmRegister = new frmRegister();
+        frmDashboard frmDashboard = new frmDashboard();
 
         public frmLogin()
         {
@@ -43,12 +42,25 @@ namespace win_Inspection
                 if (ret is null)
                     MessageBox.Show("خطا در اطلاعات ورودی");
                 else
-                    MessageBox.Show("لاگین با موفقیت");
+                {
+                    this.Hide();
+                    frmDashboard.Show();
+                }
             }
             catch
             {
                 MessageBox.Show("خطا در ثبت اطلاعات");
             }
+        }
+
+        private void btnRegister_Click(object sender, EventArgs e)
+        {
+            frmRegister.Show();
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

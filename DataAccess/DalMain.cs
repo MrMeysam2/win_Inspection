@@ -13,6 +13,7 @@ namespace DataAccess
 {
     public class DalMain
     {
+        [Obsolete]
         public static string ConnectionString
         {
             get

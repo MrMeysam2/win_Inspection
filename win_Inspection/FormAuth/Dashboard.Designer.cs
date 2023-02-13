@@ -1,7 +1,7 @@
 ﻿
 namespace win_Inspection.FormAuth
 {
-    partial class frmRegister
+    partial class frmDashboard
     {
         /// <summary>
         /// Required designer variable.
@@ -31,15 +31,15 @@ namespace win_Inspection.FormAuth
         {
             this.SuspendLayout();
             // 
-            // frmRegister
+            // frmDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::win_Inspection.Properties.Resources.BackLogin;
-            this.ClientSize = new System.Drawing.Size(784, 511);
-            this.Name = "frmRegister";
+            this.ClientSize = new System.Drawing.Size(934, 561);
+            this.Name = "frmDashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ثبت کاربر";
+            this.Text = "داشبورد";
             this.ResumeLayout(false);
 
         }

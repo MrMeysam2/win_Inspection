@@ -38,7 +38,7 @@ namespace win_Inspection
                     MessageBox.Show("لطفا نام کاربری و گذرواژه را وارد کنید");
                     return;
                 }
-                cmnUsers ret = Bll_Auth.CheckLogin(cmn);
+                cmnUsers ret = Bll_Users.CheckLogin(cmn);
                 if (ret is null)
                     MessageBox.Show("خطا در اطلاعات ورودی");
                 else

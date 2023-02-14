@@ -12,10 +12,15 @@ namespace win_Inspection.FormAuth
 {
     public partial class frmDashboard : Form
     {
+        frmRegister frmRegister = new frmRegister();
         public frmDashboard()
         {
             InitializeComponent();
         }
 
+        private void txtRegister_Click(object sender, EventArgs e)
+        {
+            frmRegister.Show();
+        }
     }
 }

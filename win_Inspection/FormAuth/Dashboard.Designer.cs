@@ -29,14 +29,25 @@ namespace win_Inspection.FormAuth
         /// </summary>
         private void InitializeComponent()
         {
+            this.txtRegister = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // txtRegister
+            // 
+            this.txtRegister.Location = new System.Drawing.Point(330, 168);
+            this.txtRegister.Name = "txtRegister";
+            this.txtRegister.Size = new System.Drawing.Size(75, 23);
+            this.txtRegister.TabIndex = 0;
+            this.txtRegister.Text = "ثبت کاربر";
+            this.txtRegister.UseVisualStyleBackColor = true;
+            this.txtRegister.Click += new System.EventHandler(this.txtRegister_Click);
             // 
             // frmDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::win_Inspection.Properties.Resources.BackLogin;
             this.ClientSize = new System.Drawing.Size(934, 561);
+            this.Controls.Add(this.txtRegister);
             this.Name = "frmDashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "داشبورد";
@@ -45,5 +56,7 @@ namespace win_Inspection.FormAuth
         }
 
         #endregion
+
+        private System.Windows.Forms.Button txtRegister;
     }
 }

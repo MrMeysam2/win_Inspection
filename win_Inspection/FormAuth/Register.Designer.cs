@@ -51,7 +51,7 @@ namespace win_Inspection.FormAuth
             // btnExit
             // 
             this.btnExit.BackColor = System.Drawing.Color.DarkRed;
-            this.btnExit.Font = new System.Drawing.Font("IRANYekanWebFn", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.btnExit.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btnExit.Location = new System.Drawing.Point(312, 395);
             this.btnExit.Name = "btnExit";
@@ -59,11 +59,12 @@ namespace win_Inspection.FormAuth
             this.btnExit.TabIndex = 0;
             this.btnExit.Text = "خروج";
             this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnClear
             // 
             this.btnClear.BackColor = System.Drawing.Color.SkyBlue;
-            this.btnClear.Font = new System.Drawing.Font("IRANYekanWebFn", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.btnClear.Location = new System.Drawing.Point(312, 363);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(90, 26);
@@ -75,139 +76,140 @@ namespace win_Inspection.FormAuth
             // btnSave
             // 
             this.btnSave.BackColor = System.Drawing.Color.SkyBlue;
-            this.btnSave.Font = new System.Drawing.Font("IRANYekanWebFn", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.btnSave.Location = new System.Drawing.Point(408, 363);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(90, 26);
             this.btnSave.TabIndex = 2;
             this.btnSave.Text = "ثبت";
             this.btnSave.UseVisualStyleBackColor = false;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // txtFirstName
             // 
-            this.txtFirstName.Font = new System.Drawing.Font("IRANYekanWebFn", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.txtFirstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.txtFirstName.Location = new System.Drawing.Point(311, 119);
             this.txtFirstName.Name = "txtFirstName";
-            this.txtFirstName.Size = new System.Drawing.Size(163, 26);
+            this.txtFirstName.Size = new System.Drawing.Size(163, 22);
             this.txtFirstName.TabIndex = 3;
             // 
             // txtLastName
             // 
-            this.txtLastName.Font = new System.Drawing.Font("IRANYekanWebFn", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.txtLastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.txtLastName.Location = new System.Drawing.Point(311, 151);
             this.txtLastName.Name = "txtLastName";
-            this.txtLastName.Size = new System.Drawing.Size(163, 26);
+            this.txtLastName.Size = new System.Drawing.Size(163, 22);
             this.txtLastName.TabIndex = 4;
             // 
             // txtPersonnelCode
             // 
-            this.txtPersonnelCode.Font = new System.Drawing.Font("IRANYekanWebFn", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.txtPersonnelCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.txtPersonnelCode.Location = new System.Drawing.Point(311, 183);
             this.txtPersonnelCode.Name = "txtPersonnelCode";
-            this.txtPersonnelCode.Size = new System.Drawing.Size(163, 26);
+            this.txtPersonnelCode.Size = new System.Drawing.Size(163, 22);
             this.txtPersonnelCode.TabIndex = 5;
             // 
             // txtUsername
             // 
-            this.txtUsername.Font = new System.Drawing.Font("IRANYekanWebFn", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.txtUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.txtUsername.Location = new System.Drawing.Point(311, 215);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(163, 26);
+            this.txtUsername.Size = new System.Drawing.Size(163, 22);
             this.txtUsername.TabIndex = 6;
             // 
             // txtPassword
             // 
-            this.txtPassword.Font = new System.Drawing.Font("IRANYekanWebFn", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.txtPassword.Location = new System.Drawing.Point(311, 247);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(163, 26);
+            this.txtPassword.Size = new System.Drawing.Size(163, 22);
             this.txtPassword.TabIndex = 7;
             this.txtPassword.UseSystemPasswordChar = true;
             // 
             // txtNationalCode
             // 
-            this.txtNationalCode.Font = new System.Drawing.Font("IRANYekanWebFn", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.txtNationalCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.txtNationalCode.Location = new System.Drawing.Point(311, 279);
             this.txtNationalCode.Name = "txtNationalCode";
-            this.txtNationalCode.Size = new System.Drawing.Size(163, 26);
+            this.txtNationalCode.Size = new System.Drawing.Size(163, 22);
             this.txtNationalCode.TabIndex = 8;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("IRANYekanWebFn", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label1.Location = new System.Drawing.Point(500, 122);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(24, 18);
+            this.label1.Size = new System.Drawing.Size(22, 16);
             this.label1.TabIndex = 10;
             this.label1.Text = "نام";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("IRANYekanWebFn", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label2.Location = new System.Drawing.Point(500, 154);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 18);
+            this.label2.Size = new System.Drawing.Size(74, 16);
             this.label2.TabIndex = 11;
             this.label2.Text = "نام خانوادگی";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("IRANYekanWebFn", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label3.Location = new System.Drawing.Point(500, 186);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 18);
+            this.label3.Size = new System.Drawing.Size(60, 16);
             this.label3.TabIndex = 12;
             this.label3.Text = "کد پرسنلی";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("IRANYekanWebFn", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label4.Location = new System.Drawing.Point(500, 218);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(63, 18);
+            this.label4.Size = new System.Drawing.Size(64, 16);
             this.label4.TabIndex = 13;
             this.label4.Text = "نام کاربری";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("IRANYekanWebFn", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label5.Location = new System.Drawing.Point(500, 250);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(47, 18);
+            this.label5.Size = new System.Drawing.Size(48, 16);
             this.label5.TabIndex = 14;
             this.label5.Text = "گذرواژه";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("IRANYekanWebFn", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label6.Location = new System.Drawing.Point(500, 282);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(46, 18);
+            this.label6.Size = new System.Drawing.Size(43, 16);
             this.label6.TabIndex = 15;
             this.label6.Text = "کد ملی";
             // 
             // comboBranchId
             // 
-            this.comboBranchId.Font = new System.Drawing.Font("IRANYekanWebFn", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.comboBranchId.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.comboBranchId.FormattingEnabled = true;
             this.comboBranchId.Location = new System.Drawing.Point(290, 311);
             this.comboBranchId.Name = "comboBranchId";
-            this.comboBranchId.Size = new System.Drawing.Size(184, 26);
+            this.comboBranchId.Size = new System.Drawing.Size(184, 24);
             this.comboBranchId.TabIndex = 16;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("IRANYekanWebFn", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label7.Location = new System.Drawing.Point(500, 314);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(37, 18);
+            this.label7.Size = new System.Drawing.Size(32, 16);
             this.label7.TabIndex = 17;
             this.label7.Text = "شعبه";
             // 
@@ -215,7 +217,6 @@ namespace win_Inspection.FormAuth
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::win_Inspection.Properties.Resources.BackLogin;
             this.ClientSize = new System.Drawing.Size(784, 511);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.comboBranchId);

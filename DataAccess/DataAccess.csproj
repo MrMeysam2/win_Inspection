@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Auth\Dal_Auth.cs" />
+    <Compile Include="Auth\Dal_Users.cs" />
     <Compile Include="DalMain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

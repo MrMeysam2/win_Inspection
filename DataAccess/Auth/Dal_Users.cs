@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Auth
 {
-    public class Dal_Auth : DalMain
+    public class Dal_Users : DalMain
     {
         public static int Add(cmnUsers cmn)
         {

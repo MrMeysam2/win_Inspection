@@ -9,17 +9,17 @@ using DataAccess.Auth;
 
 namespace Business.Auth
 {
-    public class Bll_Auth
+    public class Bll_Users
     {
-        Dal_Auth dal = new Dal_Auth(); 
+        Dal_Users dal = new Dal_Users(); 
         public static int Add(cmnUsers cmn)
         {
-            return Dal_Auth.Add(cmn);  
+            return Dal_Users.Add(cmn);  
         }
 
         public static cmnUsers CheckLogin(cmnUsers cmn)
         {
-            return Dal_Auth.CheckLogin(cmn);
+            return Dal_Users.CheckLogin(cmn);
         }
     }
 }

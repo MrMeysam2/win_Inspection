@@ -16,5 +16,16 @@ namespace win_Inspection.FormAuth
         {
             InitializeComponent();
         }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtFirstName.Text = null;
+            txtLastName.Text = null;
+            txtNationalCode.Text = null;
+            txtPassword.Text = null;
+            txtPersonnelCode.Text = null;
+            txtUsername.Text = null;
+            //comboBranchId.Items = 0;
+        }
     }
 }

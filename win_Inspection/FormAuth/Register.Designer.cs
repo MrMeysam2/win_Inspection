@@ -70,6 +70,7 @@ namespace win_Inspection.FormAuth
             this.btnClear.TabIndex = 1;
             this.btnClear.Text = "پاک کردن";
             this.btnClear.UseVisualStyleBackColor = false;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnSave
             // 

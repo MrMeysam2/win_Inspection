@@ -30,5 +30,29 @@ namespace winTest
             cmd.ExecuteNonQuery();
             con.Close();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //testStatic st = new testStatic();
+            testStatic.funcheck();
+            try
+            {
+                MessageBox.Show("try");
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally
+            {
+                MessageBox.Show("finally");
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\Da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestSolid", "TestMinProject\TestSolid.csproj", "{2FA23E70-BC41-4B19-9D21-F505F24D11C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winTest", "winTest\winTest.csproj", "{0E37BF78-043F-45FA-A7DC-FA5CB2EE91F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2FA23E70-BC41-4B19-9D21-F505F24D11C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FA23E70-BC41-4B19-9D21-F505F24D11C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FA23E70-BC41-4B19-9D21-F505F24D11C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E37BF78-043F-45FA-A7DC-FA5CB2EE91F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E37BF78-043F-45FA-A7DC-FA5CB2EE91F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E37BF78-043F-45FA-A7DC-FA5CB2EE91F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E37BF78-043F-45FA-A7DC-FA5CB2EE91F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

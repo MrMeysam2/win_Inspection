@@ -124,4 +124,10 @@
   <data name="Top" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\assets\img\Top.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="backDash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backDash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backDash1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backDash1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

@@ -111,6 +111,8 @@
   <ItemGroup>
     <Content Include="assets\img\BackLogin.jpg" />
     <Content Include="assets\img\Top.png" />
+    <None Include="Resources\backDash1.jpg" />
+    <None Include="Resources\backDash.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

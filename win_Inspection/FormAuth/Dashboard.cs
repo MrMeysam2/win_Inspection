@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace win_Inspection.FormAuth
 {
     public partial class frmDashboard : Form
@@ -21,6 +22,11 @@ namespace win_Inspection.FormAuth
         private void txtRegister_Click(object sender, EventArgs e)
         {
             frmRegister.Show();
+        }
+
+        private void frmDashboard_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

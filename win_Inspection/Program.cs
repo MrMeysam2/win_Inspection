@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using win_Inspection.FormAuth;
 
 namespace win_Inspection
 {
@@ -16,7 +17,7 @@ namespace win_Inspection
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmLogin());
+            Application.Run(new frmDashboard());
         }
     }
 }

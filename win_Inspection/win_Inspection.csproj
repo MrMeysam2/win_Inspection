@@ -64,6 +64,12 @@
     <Compile Include="FormAuth\Register.Designer.cs">
       <DependentUpon>Register.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormAuth\RoleAccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAuth\RoleAccess.Designer.cs">
+      <DependentUpon>RoleAccess.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormAuth\Dashboard.resx">
@@ -74,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormAuth\Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAuth\RoleAccess.resx">
+      <DependentUpon>RoleAccess.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

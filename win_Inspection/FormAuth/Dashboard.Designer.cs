@@ -35,6 +35,7 @@ namespace win_Inspection.FormAuth
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btnRoleAccess = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.SuspendLayout();
@@ -43,7 +44,7 @@ namespace win_Inspection.FormAuth
             // 
             this.txtRegister.BackColor = System.Drawing.Color.White;
             this.txtRegister.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.txtRegister.Location = new System.Drawing.Point(47, 34);
+            this.txtRegister.Location = new System.Drawing.Point(47, 98);
             this.txtRegister.Name = "txtRegister";
             this.txtRegister.Size = new System.Drawing.Size(135, 36);
             this.txtRegister.TabIndex = 0;
@@ -89,6 +90,7 @@ namespace win_Inspection.FormAuth
             // 
             this.groupBox3.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.groupBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox3.BackgroundImage")));
+            this.groupBox3.Controls.Add(this.btnRoleAccess);
             this.groupBox3.Controls.Add(this.txtRegister);
             this.groupBox3.Location = new System.Drawing.Point(712, 46);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(0);
@@ -97,6 +99,18 @@ namespace win_Inspection.FormAuth
             this.groupBox3.Size = new System.Drawing.Size(222, 517);
             this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
+            // 
+            // btnRoleAccess
+            // 
+            this.btnRoleAccess.BackColor = System.Drawing.Color.White;
+            this.btnRoleAccess.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.btnRoleAccess.Location = new System.Drawing.Point(47, 42);
+            this.btnRoleAccess.Name = "btnRoleAccess";
+            this.btnRoleAccess.Size = new System.Drawing.Size(135, 36);
+            this.btnRoleAccess.TabIndex = 1;
+            this.btnRoleAccess.Text = "ایجاد نقش";
+            this.btnRoleAccess.UseVisualStyleBackColor = false;
+            this.btnRoleAccess.Click += new System.EventHandler(this.btnRoleAccess_Click);
             // 
             // frmDashboard
             // 
@@ -125,5 +139,6 @@ namespace win_Inspection.FormAuth
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnRoleAccess;
     }
 }

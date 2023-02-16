@@ -14,6 +14,7 @@ namespace win_Inspection.FormAuth
     public partial class frmDashboard : Form
     {
         frmRegister frmRegister = new frmRegister();
+        frmRoleAccess frmRoleAccess = new frmRoleAccess();
         public frmDashboard()
         {
             InitializeComponent();
@@ -27,6 +28,11 @@ namespace win_Inspection.FormAuth
         private void frmDashboard_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnRoleAccess_Click(object sender, EventArgs e)
+        {
+            frmRoleAccess.Show();
         }
     }
 }

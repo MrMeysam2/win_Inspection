@@ -29,11 +29,12 @@ namespace win_Inspection.FormAuth
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDashboard));
             this.txtRegister = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.SuspendLayout();
@@ -73,19 +74,6 @@ namespace win_Inspection.FormAuth
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             // 
-            // groupBox3
-            // 
-            this.groupBox3.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.groupBox3.BackgroundImage = global::win_Inspection.Properties.Resources.backDash1;
-            this.groupBox3.Controls.Add(this.txtRegister);
-            this.groupBox3.Location = new System.Drawing.Point(712, 46);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(0);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(0);
-            this.groupBox3.Size = new System.Drawing.Size(222, 517);
-            this.groupBox3.TabIndex = 3;
-            this.groupBox3.TabStop = false;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -96,6 +84,19 @@ namespace win_Inspection.FormAuth
             this.label1.Size = new System.Drawing.Size(66, 32);
             this.label1.TabIndex = 4;
             this.label1.Text = "داشبورد";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.groupBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox3.BackgroundImage")));
+            this.groupBox3.Controls.Add(this.txtRegister);
+            this.groupBox3.Location = new System.Drawing.Point(712, 46);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(0);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(0);
+            this.groupBox3.Size = new System.Drawing.Size(222, 517);
+            this.groupBox3.TabIndex = 3;
+            this.groupBox3.TabStop = false;
             // 
             // frmDashboard
             // 

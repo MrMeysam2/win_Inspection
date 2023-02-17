@@ -63,26 +63,6 @@ namespace win_Inspection.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap backDash {
-            get {
-                object obj = ResourceManager.GetObject("backDash", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap backDash1 {
-            get {
-                object obj = ResourceManager.GetObject("backDash1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap BackLogin {
             get {
                 object obj = ResourceManager.GetObject("BackLogin", resourceCulture);

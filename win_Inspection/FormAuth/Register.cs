@@ -1,5 +1,6 @@
 ﻿using Business.Auth;
 using Common;
+using Common.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -28,6 +29,16 @@ namespace win_Inspection.FormAuth
         }
 
         /// <summary>
+        /// Load Form
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void frmRegister_Load(object sender, EventArgs e)
+        {
+            GetBranchs();
+        }
+
+        /// <summary>
         /// Save Form
         /// </summary>
         /// <param name="sender"></param>
@@ -43,10 +54,15 @@ namespace win_Inspection.FormAuth
                 cmn.PersonnelCode = txtPersonnelCode.Text.Trim();
                 cmn.Username = txtUsername.Text.Trim();
                 cmn.IsActive = true;
+                cmn.BranchId = (int)comboBranchId.SelectedValue;
 
                 int ret = Bll_Users.Add(cmn);
                 if (ret != 0)
+                {
+                    ClearForm();
                     MessageBox.Show("عملیات موفق");
+
+                }
                 else
                     MessageBox.Show("عملیات ناموفق");
             }
@@ -54,7 +70,7 @@ namespace win_Inspection.FormAuth
                 MessageBox.Show("نام کاربری یا گذرواژه خالی می باشد");
 
         }
-        
+
         /// <summary>
         /// Clear From
         /// </summary>
@@ -62,13 +78,7 @@ namespace win_Inspection.FormAuth
         /// <param name="e"></param>
         private void btnClear_Click(object sender, EventArgs e)
         {
-            txtFirstName.Text = null;
-            txtLastName.Text = null;
-            txtNationalCode.Text = null;
-            txtPassword.Text = null;
-            txtPersonnelCode.Text = null;
-            txtUsername.Text = null;
-            //comboBranchId.Items = 0;
+            ClearForm();
         }
 
         /// <summary>
@@ -88,6 +98,32 @@ namespace win_Inspection.FormAuth
             //    // this.Close(); // you don't need that, it's already closing
             //    Environment.Exit(1);
             //}
+        }
+
+        /// <summary>
+        /// Get All Branchs
+        /// </summary>
+        private void GetBranchs()
+        {
+            DataTable dt = new DataTable();
+            dt = Bll_Users.FillcomboBranch();
+            comboBranchId.DataSource = dt;
+            comboBranchId.DisplayMember = "Name";
+            comboBranchId.ValueMember = "Code";
+        }
+
+        /// <summary>
+        /// Clear Form
+        /// </summary>
+        private void ClearForm()
+        {
+            txtFirstName.Text = null;
+            txtLastName.Text = null;
+            txtNationalCode.Text = null;
+            txtPassword.Text = null;
+            txtPersonnelCode.Text = null;
+            txtUsername.Text = null;
+            comboBranchId.SelectedValue = 0;
         }
     }
 }

@@ -39,5 +39,13 @@ namespace DataAccess.Auth
             }
             return userinfo;
         }
+
+        public static DataTable FillcomboBranch()
+        {
+            DataTable dt = ExecuteDataTable(CommandType.Text, "SELECT Code,Name  FROM Branchs", null);
+            if (dt != null)
+                return dt;
+            return null;
+        }
     }
 }

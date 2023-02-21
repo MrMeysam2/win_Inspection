@@ -52,6 +52,12 @@
     <Compile Include="FormAuth\Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormAuth\Forms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAuth\Forms.Designer.cs">
+      <DependentUpon>Forms.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormAuth\Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,16 +70,34 @@
     <Compile Include="FormAuth\Register.Designer.cs">
       <DependentUpon>Register.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormAuth\SaveInspection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAuth\SaveInspection.Designer.cs">
+      <DependentUpon>SaveInspection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAuth\ZoneBranch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAuth\ZoneBranch.Designer.cs">
+      <DependentUpon>ZoneBranch.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormAuth\Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAuth\Forms.resx">
+      <DependentUpon>Forms.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormAuth\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormAuth\Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAuth\ZoneBranch.resx">
+      <DependentUpon>ZoneBranch.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

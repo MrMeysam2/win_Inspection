@@ -46,60 +46,60 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormAuth\Dashboard.cs">
+    <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormAuth\Dashboard.Designer.cs">
+    <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormAuth\Forms.cs">
+    <Compile Include="Forms.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormAuth\Forms.Designer.cs">
+    <Compile Include="Forms.Designer.cs">
       <DependentUpon>Forms.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormAuth\Login.cs">
+    <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormAuth\Login.Designer.cs">
+    <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormAuth\Register.cs">
+    <Compile Include="Register.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormAuth\Register.Designer.cs">
+    <Compile Include="Register.Designer.cs">
       <DependentUpon>Register.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormAuth\SaveInspection.cs">
+    <Compile Include="SaveInspection.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormAuth\SaveInspection.Designer.cs">
+    <Compile Include="SaveInspection.Designer.cs">
       <DependentUpon>SaveInspection.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormAuth\ZoneBranch.cs">
+    <Compile Include="ZoneBranch.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormAuth\ZoneBranch.Designer.cs">
+    <Compile Include="ZoneBranch.Designer.cs">
       <DependentUpon>ZoneBranch.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormAuth\Dashboard.resx">
+    <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormAuth\Forms.resx">
+    <EmbeddedResource Include="Forms.resx">
       <DependentUpon>Forms.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormAuth\Login.resx">
+    <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormAuth\Register.resx">
+    <EmbeddedResource Include="Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormAuth\SaveInspection.resx">
+    <EmbeddedResource Include="SaveInspection.resx">
       <DependentUpon>SaveInspection.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormAuth\ZoneBranch.resx">
+    <EmbeddedResource Include="ZoneBranch.resx">
       <DependentUpon>ZoneBranch.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -139,5 +139,6 @@
     <Content Include="assets\img\BackLogin.jpg" />
     <Content Include="assets\img\Top.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

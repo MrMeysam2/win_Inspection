@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace win_Inspection.FormAuth
 {
-    public partial class SaveInspection : Form
+    public partial class frmSaveInspection : Form
     {
-        public SaveInspection()
+        public frmSaveInspection()
         {
             InitializeComponent();
         }

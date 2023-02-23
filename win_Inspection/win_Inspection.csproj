@@ -96,6 +96,9 @@
     <EmbeddedResource Include="FormAuth\Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormAuth\SaveInspection.resx">
+      <DependentUpon>SaveInspection.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormAuth\ZoneBranch.resx">
       <DependentUpon>ZoneBranch.cs</DependentUpon>
     </EmbeddedResource>

@@ -53,7 +53,7 @@ namespace win_Inspection.FormAuth
             this.btnExit.BackColor = System.Drawing.Color.DarkRed;
             this.btnExit.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.btnExit.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.btnExit.Location = new System.Drawing.Point(312, 405);
+            this.btnExit.Location = new System.Drawing.Point(300, 404);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(186, 36);
             this.btnExit.TabIndex = 0;
@@ -65,7 +65,7 @@ namespace win_Inspection.FormAuth
             // 
             this.btnClear.BackColor = System.Drawing.Color.SkyBlue;
             this.btnClear.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.btnClear.Location = new System.Drawing.Point(312, 363);
+            this.btnClear.Location = new System.Drawing.Point(300, 362);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(90, 36);
             this.btnClear.TabIndex = 1;
@@ -77,7 +77,7 @@ namespace win_Inspection.FormAuth
             // 
             this.btnSave.BackColor = System.Drawing.Color.SkyBlue;
             this.btnSave.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.btnSave.Location = new System.Drawing.Point(408, 363);
+            this.btnSave.Location = new System.Drawing.Point(396, 362);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(90, 36);
             this.btnSave.TabIndex = 2;
@@ -88,7 +88,7 @@ namespace win_Inspection.FormAuth
             // txtFirstName
             // 
             this.txtFirstName.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.txtFirstName.Location = new System.Drawing.Point(311, 119);
+            this.txtFirstName.Location = new System.Drawing.Point(299, 118);
             this.txtFirstName.Name = "txtFirstName";
             this.txtFirstName.Size = new System.Drawing.Size(163, 31);
             this.txtFirstName.TabIndex = 3;
@@ -96,7 +96,7 @@ namespace win_Inspection.FormAuth
             // txtLastName
             // 
             this.txtLastName.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.txtLastName.Location = new System.Drawing.Point(311, 151);
+            this.txtLastName.Location = new System.Drawing.Point(299, 150);
             this.txtLastName.Name = "txtLastName";
             this.txtLastName.Size = new System.Drawing.Size(163, 31);
             this.txtLastName.TabIndex = 4;
@@ -104,7 +104,7 @@ namespace win_Inspection.FormAuth
             // txtPersonnelCode
             // 
             this.txtPersonnelCode.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.txtPersonnelCode.Location = new System.Drawing.Point(311, 183);
+            this.txtPersonnelCode.Location = new System.Drawing.Point(299, 182);
             this.txtPersonnelCode.Name = "txtPersonnelCode";
             this.txtPersonnelCode.Size = new System.Drawing.Size(163, 31);
             this.txtPersonnelCode.TabIndex = 5;
@@ -112,7 +112,7 @@ namespace win_Inspection.FormAuth
             // txtUsername
             // 
             this.txtUsername.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.txtUsername.Location = new System.Drawing.Point(311, 215);
+            this.txtUsername.Location = new System.Drawing.Point(299, 214);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(163, 31);
             this.txtUsername.TabIndex = 6;
@@ -120,7 +120,7 @@ namespace win_Inspection.FormAuth
             // txtPassword
             // 
             this.txtPassword.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.txtPassword.Location = new System.Drawing.Point(311, 247);
+            this.txtPassword.Location = new System.Drawing.Point(299, 246);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(163, 31);
             this.txtPassword.TabIndex = 7;
@@ -129,7 +129,7 @@ namespace win_Inspection.FormAuth
             // txtNationalCode
             // 
             this.txtNationalCode.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.txtNationalCode.Location = new System.Drawing.Point(311, 279);
+            this.txtNationalCode.Location = new System.Drawing.Point(299, 278);
             this.txtNationalCode.Name = "txtNationalCode";
             this.txtNationalCode.Size = new System.Drawing.Size(163, 31);
             this.txtNationalCode.TabIndex = 8;
@@ -138,7 +138,7 @@ namespace win_Inspection.FormAuth
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label1.Location = new System.Drawing.Point(500, 122);
+            this.label1.Location = new System.Drawing.Point(488, 121);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(24, 24);
             this.label1.TabIndex = 10;
@@ -148,7 +148,7 @@ namespace win_Inspection.FormAuth
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label2.Location = new System.Drawing.Point(500, 154);
+            this.label2.Location = new System.Drawing.Point(488, 153);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(75, 24);
             this.label2.TabIndex = 11;
@@ -158,7 +158,7 @@ namespace win_Inspection.FormAuth
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label3.Location = new System.Drawing.Point(500, 186);
+            this.label3.Location = new System.Drawing.Point(488, 185);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(67, 24);
             this.label3.TabIndex = 12;
@@ -168,7 +168,7 @@ namespace win_Inspection.FormAuth
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label4.Location = new System.Drawing.Point(500, 218);
+            this.label4.Location = new System.Drawing.Point(488, 217);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(63, 24);
             this.label4.TabIndex = 13;
@@ -178,7 +178,7 @@ namespace win_Inspection.FormAuth
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label5.Location = new System.Drawing.Point(500, 250);
+            this.label5.Location = new System.Drawing.Point(488, 249);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(51, 24);
             this.label5.TabIndex = 14;
@@ -188,7 +188,7 @@ namespace win_Inspection.FormAuth
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label6.Location = new System.Drawing.Point(500, 282);
+            this.label6.Location = new System.Drawing.Point(488, 281);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(47, 24);
             this.label6.TabIndex = 15;
@@ -198,7 +198,7 @@ namespace win_Inspection.FormAuth
             // 
             this.comboBranchId.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.comboBranchId.FormattingEnabled = true;
-            this.comboBranchId.Location = new System.Drawing.Point(290, 311);
+            this.comboBranchId.Location = new System.Drawing.Point(278, 310);
             this.comboBranchId.Name = "comboBranchId";
             this.comboBranchId.Size = new System.Drawing.Size(184, 32);
             this.comboBranchId.TabIndex = 16;
@@ -207,7 +207,7 @@ namespace win_Inspection.FormAuth
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label7.Location = new System.Drawing.Point(500, 314);
+            this.label7.Location = new System.Drawing.Point(488, 313);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(37, 24);
             this.label7.TabIndex = 17;

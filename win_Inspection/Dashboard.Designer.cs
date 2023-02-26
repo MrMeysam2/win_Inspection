@@ -35,9 +35,9 @@ namespace win_Inspection.FormAuth
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.btnSaveInspection = new System.Windows.Forms.Button();
-            this.btnForms = new System.Windows.Forms.Button();
             this.btnZoneBranch = new System.Windows.Forms.Button();
+            this.btnForms = new System.Windows.Forms.Button();
+            this.btnSaveInspection = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -50,7 +50,7 @@ namespace win_Inspection.FormAuth
             this.txtRegister.Location = new System.Drawing.Point(43, 189);
             this.txtRegister.Name = "txtRegister";
             this.txtRegister.Size = new System.Drawing.Size(135, 46);
-            this.txtRegister.TabIndex = 0;
+            this.txtRegister.TabIndex = 3;
             this.txtRegister.Text = "ثبت کاربر";
             this.txtRegister.UseVisualStyleBackColor = false;
             this.txtRegister.Click += new System.EventHandler(this.txtRegister_Click);
@@ -58,11 +58,11 @@ namespace win_Inspection.FormAuth
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("B Nazanin", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label1.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(80, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 30);
+            this.label1.Size = new System.Drawing.Size(54, 24);
             this.label1.TabIndex = 4;
             this.label1.Text = "داشبورد";
             // 
@@ -98,17 +98,17 @@ namespace win_Inspection.FormAuth
             this.panel3.Size = new System.Drawing.Size(219, 514);
             this.panel3.TabIndex = 6;
             // 
-            // btnSaveInspection
+            // btnZoneBranch
             // 
-            this.btnSaveInspection.BackColor = System.Drawing.Color.White;
-            this.btnSaveInspection.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.btnSaveInspection.Location = new System.Drawing.Point(43, 33);
-            this.btnSaveInspection.Name = "btnSaveInspection";
-            this.btnSaveInspection.Size = new System.Drawing.Size(135, 46);
-            this.btnSaveInspection.TabIndex = 1;
-            this.btnSaveInspection.Text = "ثبت بازرسی";
-            this.btnSaveInspection.UseVisualStyleBackColor = false;
-            this.btnSaveInspection.Click += new System.EventHandler(this.btnSaveInspection_Click);
+            this.btnZoneBranch.BackColor = System.Drawing.Color.White;
+            this.btnZoneBranch.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.btnZoneBranch.Location = new System.Drawing.Point(43, 137);
+            this.btnZoneBranch.Name = "btnZoneBranch";
+            this.btnZoneBranch.Size = new System.Drawing.Size(135, 46);
+            this.btnZoneBranch.TabIndex = 2;
+            this.btnZoneBranch.Text = "سرپرستی و شعب";
+            this.btnZoneBranch.UseVisualStyleBackColor = false;
+            this.btnZoneBranch.Click += new System.EventHandler(this.btnZoneBranch_Click);
             // 
             // btnForms
             // 
@@ -117,20 +117,22 @@ namespace win_Inspection.FormAuth
             this.btnForms.Location = new System.Drawing.Point(43, 85);
             this.btnForms.Name = "btnForms";
             this.btnForms.Size = new System.Drawing.Size(135, 46);
-            this.btnForms.TabIndex = 2;
+            this.btnForms.TabIndex = 1;
             this.btnForms.Text = "لیست فرم ها";
             this.btnForms.UseVisualStyleBackColor = false;
+            this.btnForms.Click += new System.EventHandler(this.btnForms_Click);
             // 
-            // btnZoneBranch
+            // btnSaveInspection
             // 
-            this.btnZoneBranch.BackColor = System.Drawing.Color.White;
-            this.btnZoneBranch.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.btnZoneBranch.Location = new System.Drawing.Point(43, 137);
-            this.btnZoneBranch.Name = "btnZoneBranch";
-            this.btnZoneBranch.Size = new System.Drawing.Size(135, 46);
-            this.btnZoneBranch.TabIndex = 7;
-            this.btnZoneBranch.Text = "سرپرستی و شعب";
-            this.btnZoneBranch.UseVisualStyleBackColor = false;
+            this.btnSaveInspection.BackColor = System.Drawing.Color.White;
+            this.btnSaveInspection.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.btnSaveInspection.Location = new System.Drawing.Point(43, 33);
+            this.btnSaveInspection.Name = "btnSaveInspection";
+            this.btnSaveInspection.Size = new System.Drawing.Size(135, 46);
+            this.btnSaveInspection.TabIndex = 0;
+            this.btnSaveInspection.Text = "ثبت بازرسی";
+            this.btnSaveInspection.UseVisualStyleBackColor = false;
+            this.btnSaveInspection.Click += new System.EventHandler(this.btnSaveInspection_Click);
             // 
             // label2
             // 

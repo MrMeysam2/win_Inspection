@@ -26,5 +26,10 @@ namespace Business.Auth
         {
             return Dal_Users.FillcomboBranch();
         }
+
+        public static DataTable GetAll()
+        {
+            return Dal_Users.GetAll();
+        }
     }
 }

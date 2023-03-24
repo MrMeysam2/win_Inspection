@@ -34,7 +34,25 @@ namespace win_Inspection.FormAuth
         /// <param name="e"></param>
         private void frmRegister_Load(object sender, EventArgs e)
         {
+            GetRegisterUsers();
             GetBranchs();
+
+        }
+
+        private void GetRegisterUsers()
+        {
+            dgListUsers.DataSource = Bll_Users.GetAll();
+            dgListUsers.Columns["Id"].HeaderText = "کد کاربر";
+            dgListUsers.Columns["FirstName"].HeaderText = "نام";
+            dgListUsers.Columns["LastName"].HeaderText = "نام خانوادگی";
+            dgListUsers.Columns["PersonnelCode"].HeaderText = "شماره پرسنل";
+            dgListUsers.Columns["Username"].HeaderText = "نام کاربری";
+            dgListUsers.Columns["NationalCode"].HeaderText = "کد ملی";
+
+            for (int i = 0; i < dgListUsers.Rows.Count; i += 2)
+            {
+                dgListUsers.Rows[i].DefaultCellStyle.BackColor = Color.Khaki;
+            }
         }
 
         /// <summary>
@@ -88,15 +106,6 @@ namespace win_Inspection.FormAuth
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
-            //if (!_exiting && MessageBox.Show("آیا می خواهید خارج شوید؟",
-            //           "نرم افزار بازرسی",
-            //            MessageBoxButtons.OKCancel,
-            //            MessageBoxIcon.Error) == DialogResult.OK)
-            //{
-            //    _exiting = true;
-            //    // this.Close(); // you don't need that, it's already closing
-            //    Environment.Exit(1);
-            //}
         }
 
         /// <summary>

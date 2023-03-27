@@ -41,8 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cmnBranch.cs" />
     <Compile Include="cmnMain.cs" />
     <Compile Include="cmnUsers.cs" />
+    <Compile Include="cmnZone.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -12,9 +12,31 @@ namespace win_Inspection.FormAuth
 {
     public partial class frmZoneBranch : Form
     {
+        #region Variable
+        
+        #endregion
+
+        #region Object
+        
+        #endregion
         public frmZoneBranch()
         {
             InitializeComponent();
+        }
+
+        private void frmZoneBranch_Load(object sender, EventArgs e)
+        {
+            GetZones();
+        }
+
+        private void GetZones()
+        {
+            DataTable dt = new DataTable();
+            //dt = BLL_Zone.FillcomboBranch();
+            comboZones.DataSource = dt;
+            comboZones.DisplayMember = "Name";
+            comboZones.ValueMember = "Code";
+
         }
     }
 }

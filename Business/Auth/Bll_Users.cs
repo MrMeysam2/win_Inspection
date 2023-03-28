@@ -11,7 +11,6 @@ namespace Business.Auth
 {
     public class Bll_Users
     {
-        Dal_Users dal = new Dal_Users(); 
         public static int Add(cmnUsers cmn)
         {
             return Dal_Users.Add(cmn);  

@@ -18,5 +18,6 @@ namespace Common
         public string Address { get; set; }
         public string CityName { get; set; }
         public bool IsActive { get; set; }
+        public int ZoneCode { get; set; }
     }
 }

@@ -139,6 +139,7 @@
     <Content Include="assets\img\BackLogin.jpg" />
     <Content Include="assets\img\Top.png" />
     <Content Include="assets\script\14020108.sql" />
+    <Content Include="assets\script\14020108Home.sql" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

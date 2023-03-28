@@ -32,7 +32,7 @@ namespace win_Inspection.FormAuth
         private void GetZones()
         {
             DataTable dt = new DataTable();
-            dt = BLL_Zone.FillcomboBranch();
+            //dt = BLL_Zone.FillcomboBranch();
             comboZones.DataSource = dt;
             comboZones.DisplayMember = "Name";
             comboZones.ValueMember = "Code";

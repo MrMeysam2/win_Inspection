@@ -78,7 +78,7 @@ namespace win_Inspection.FormAuth
                 {
                     ClearForm();
                     MessageBox.Show("عملیات موفق");
-
+                    GetRegisterUsers();
                 }
                 else
                     MessageBox.Show("عملیات ناموفق");

@@ -40,9 +40,17 @@ namespace DataAccess.Auth
             return userinfo;
         }
 
+        public static DataTable FillcomboRoles()
+        {
+            DataTable dt = ExecuteDataTable(CommandType.Text, "SELECT Id ,Title ,IsActive ,Description FROM Roles", null);
+            if (dt != null && dt.Rows.Count > 0)
+                return dt;
+            return null;
+        }
+
         public static DataTable GetAll()
         {
-            DataTable dt = ExecuteDataTable(CommandType.Text, "SELECT Id,FirstName,LastName,PersonnelCode,Username,NationalCode FROM Users", null);
+            DataTable dt = ExecuteDataTable(CommandType.Text, "SELECT Id,FirstName,LastName,PersonnelCode,Username,NationalCode, FROM Users", null);
             if (dt != null && dt.Rows.Count > 0)
                 return dt;
             return null;

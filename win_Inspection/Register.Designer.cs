@@ -52,6 +52,8 @@ namespace win_Inspection.FormAuth
             this.btnEdit = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.dgListUsers = new System.Windows.Forms.DataGridView();
+            this.label9 = new System.Windows.Forms.Label();
+            this.comboRoles = new System.Windows.Forms.ComboBox();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgListUsers)).BeginInit();
@@ -234,6 +236,8 @@ namespace win_Inspection.FormAuth
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.panel3.Controls.Add(this.label9);
+            this.panel3.Controls.Add(this.comboRoles);
             this.panel3.Controls.Add(this.btnDelete);
             this.panel3.Controls.Add(this.btnEdit);
             this.panel3.Controls.Add(this.btnSave);
@@ -298,6 +302,25 @@ namespace win_Inspection.FormAuth
             this.dgListUsers.Size = new System.Drawing.Size(921, 241);
             this.dgListUsers.TabIndex = 21;
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label9.Location = new System.Drawing.Point(423, 141);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(34, 24);
+            this.label9.TabIndex = 19;
+            this.label9.Text = "نقش";
+            // 
+            // comboRoles
+            // 
+            this.comboRoles.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.comboRoles.FormattingEnabled = true;
+            this.comboRoles.Location = new System.Drawing.Point(213, 138);
+            this.comboRoles.Name = "comboRoles";
+            this.comboRoles.Size = new System.Drawing.Size(184, 32);
+            this.comboRoles.TabIndex = 18;
+            // 
             // frmRegister
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -345,5 +368,7 @@ namespace win_Inspection.FormAuth
         private System.Windows.Forms.Button btnEdit;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.DataGridView dgListUsers;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.ComboBox comboRoles;
     }
 }

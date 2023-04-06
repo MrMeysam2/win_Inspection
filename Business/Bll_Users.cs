@@ -30,5 +30,10 @@ namespace Business.Auth
         {
             return Dal_Users.GetAll();
         }
+
+        public static DataTable FillcomboRoles()
+        {
+            return Dal_Users.FillcomboRoles();
+        }
     }
 }

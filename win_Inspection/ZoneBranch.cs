@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Business;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -32,7 +33,7 @@ namespace win_Inspection.FormAuth
         private void GetZones()
         {
             DataTable dt = new DataTable();
-            //dt = BLL_Zone.FillcomboBranch();
+            dt = Bll_Branch.GetAllZones();
             comboZones.DataSource = dt;
             comboZones.DisplayMember = "Name";
             comboZones.ValueMember = "Code";

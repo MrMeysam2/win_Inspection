@@ -36,7 +36,16 @@ namespace win_Inspection.FormAuth
         {
             GetRegisterUsers();
             GetBranchs();
+            GetRoles();
+        }
 
+        private void GetRoles()
+        {
+            DataTable dt = new DataTable();
+            dt = Bll_Users.FillcomboRoles();
+            comboRoles.DataSource = dt;
+            comboRoles.DisplayMember = "Name";
+            comboRoles.ValueMember = "Code";
         }
 
         private void GetRegisterUsers()

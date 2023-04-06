@@ -54,5 +54,10 @@ namespace winTest
         {
             
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Guid Id = Guid.NewGuid();
+        }
     }
 }

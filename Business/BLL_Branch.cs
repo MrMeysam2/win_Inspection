@@ -7,11 +7,12 @@ using System.Threading.Tasks;
 
 namespace Business
 {
-    public class BLL_Branch
+    public class Bll_Branch
     {
         public static int Add(cmnBranch cmn)
         {
-            return 0;  
+            return 0;
         }
+        
     }
 }

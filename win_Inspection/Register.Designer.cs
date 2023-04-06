@@ -64,7 +64,7 @@ namespace win_Inspection.FormAuth
             this.btnClear.Location = new System.Drawing.Point(255, 201);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(99, 31);
-            this.btnClear.TabIndex = 1;
+            this.btnClear.TabIndex = 11;
             this.btnClear.Text = "پاک کردن";
             this.btnClear.UseVisualStyleBackColor = false;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
@@ -77,7 +77,7 @@ namespace win_Inspection.FormAuth
             this.btnSave.Location = new System.Drawing.Point(570, 201);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(99, 31);
-            this.btnSave.TabIndex = 2;
+            this.btnSave.TabIndex = 8;
             this.btnSave.Text = "ثبت";
             this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
@@ -88,7 +88,7 @@ namespace win_Inspection.FormAuth
             this.txtFirstName.Location = new System.Drawing.Point(485, 39);
             this.txtFirstName.Name = "txtFirstName";
             this.txtFirstName.Size = new System.Drawing.Size(163, 31);
-            this.txtFirstName.TabIndex = 3;
+            this.txtFirstName.TabIndex = 1;
             // 
             // txtLastName
             // 
@@ -96,7 +96,7 @@ namespace win_Inspection.FormAuth
             this.txtLastName.Location = new System.Drawing.Point(485, 71);
             this.txtLastName.Name = "txtLastName";
             this.txtLastName.Size = new System.Drawing.Size(163, 31);
-            this.txtLastName.TabIndex = 4;
+            this.txtLastName.TabIndex = 2;
             // 
             // txtPersonnelCode
             // 
@@ -104,7 +104,7 @@ namespace win_Inspection.FormAuth
             this.txtPersonnelCode.Location = new System.Drawing.Point(485, 103);
             this.txtPersonnelCode.Name = "txtPersonnelCode";
             this.txtPersonnelCode.Size = new System.Drawing.Size(163, 31);
-            this.txtPersonnelCode.TabIndex = 5;
+            this.txtPersonnelCode.TabIndex = 3;
             // 
             // txtUsername
             // 
@@ -112,7 +112,7 @@ namespace win_Inspection.FormAuth
             this.txtUsername.Location = new System.Drawing.Point(485, 135);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(163, 31);
-            this.txtUsername.TabIndex = 6;
+            this.txtUsername.TabIndex = 4;
             // 
             // txtPassword
             // 
@@ -120,7 +120,7 @@ namespace win_Inspection.FormAuth
             this.txtPassword.Location = new System.Drawing.Point(234, 34);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(163, 31);
-            this.txtPassword.TabIndex = 7;
+            this.txtPassword.TabIndex = 5;
             this.txtPassword.UseSystemPasswordChar = true;
             // 
             // txtNationalCode
@@ -129,7 +129,7 @@ namespace win_Inspection.FormAuth
             this.txtNationalCode.Location = new System.Drawing.Point(234, 66);
             this.txtNationalCode.Name = "txtNationalCode";
             this.txtNationalCode.Size = new System.Drawing.Size(163, 31);
-            this.txtNationalCode.TabIndex = 8;
+            this.txtNationalCode.TabIndex = 6;
             // 
             // label1
             // 
@@ -198,7 +198,7 @@ namespace win_Inspection.FormAuth
             this.comboBranchId.Location = new System.Drawing.Point(213, 98);
             this.comboBranchId.Name = "comboBranchId";
             this.comboBranchId.Size = new System.Drawing.Size(184, 32);
-            this.comboBranchId.TabIndex = 16;
+            this.comboBranchId.TabIndex = 7;
             // 
             // label7
             // 
@@ -265,7 +265,7 @@ namespace win_Inspection.FormAuth
             this.btnDelete.Location = new System.Drawing.Point(360, 201);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(99, 32);
-            this.btnDelete.TabIndex = 6;
+            this.btnDelete.TabIndex = 10;
             this.btnDelete.Text = "حذف";
             this.btnDelete.UseVisualStyleBackColor = false;
             // 
@@ -276,7 +276,7 @@ namespace win_Inspection.FormAuth
             this.btnEdit.Location = new System.Drawing.Point(465, 201);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(99, 32);
-            this.btnEdit.TabIndex = 5;
+            this.btnEdit.TabIndex = 9;
             this.btnEdit.Text = "ویرایش";
             this.btnEdit.UseVisualStyleBackColor = false;
             // 

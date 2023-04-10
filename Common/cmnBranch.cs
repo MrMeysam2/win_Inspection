@@ -10,7 +10,7 @@ namespace Common
     {
         public cmnBranch()
         {
-            TableName = "Branch";
+            TableName = "Branchs";
         }
         public int Code { get; set; }
         public string Name { get; set; }

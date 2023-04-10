@@ -13,13 +13,16 @@ namespace Business
     {
         public static int Add(cmnBranch cmn)
         {
-            return 0;
+            return Dal_Branchs.Add(cmn);
         }
         public static DataTable GetAllZones()
         {
             return Dal_Branchs.GetAllZones();
         }
 
-
+        public static DataTable GetAllBranchs()
+        {
+            return Dal_Branchs.GetAllBranchs();
+        }
     }
 }

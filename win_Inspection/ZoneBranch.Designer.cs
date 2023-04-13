@@ -32,6 +32,7 @@ namespace win_Inspection.FormAuth
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.dgListBranchs = new System.Windows.Forms.DataGridView();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -50,11 +51,10 @@ namespace win_Inspection.FormAuth
             this.btnEdit = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.dgListBranchs = new System.Windows.Forms.DataGridView();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgListBranchs)).BeginInit();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -87,6 +87,14 @@ namespace win_Inspection.FormAuth
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(921, 251);
             this.panel4.TabIndex = 11;
+            // 
+            // dgListBranchs
+            // 
+            this.dgListBranchs.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgListBranchs.Location = new System.Drawing.Point(0, 2);
+            this.dgListBranchs.Name = "dgListBranchs";
+            this.dgListBranchs.Size = new System.Drawing.Size(921, 243);
+            this.dgListBranchs.TabIndex = 0;
             // 
             // panel3
             // 
@@ -161,7 +169,7 @@ namespace win_Inspection.FormAuth
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(54, 24);
             this.label3.TabIndex = 19;
-            this.label3.Text = "کد شعبه";
+            this.label3.Text = "نام شعبه";
             // 
             // txtAddress
             // 
@@ -186,7 +194,7 @@ namespace win_Inspection.FormAuth
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(54, 24);
             this.label2.TabIndex = 17;
-            this.label2.Text = "نام شعبه";
+            this.label2.Text = "کد شعبه";
             // 
             // txtCityName
             // 
@@ -270,14 +278,6 @@ namespace win_Inspection.FormAuth
             this.panel1.Size = new System.Drawing.Size(712, 54);
             this.panel1.TabIndex = 8;
             // 
-            // dgListBranchs
-            // 
-            this.dgListBranchs.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgListBranchs.Location = new System.Drawing.Point(0, 2);
-            this.dgListBranchs.Name = "dgListBranchs";
-            this.dgListBranchs.Size = new System.Drawing.Size(921, 243);
-            this.dgListBranchs.TabIndex = 0;
-            // 
             // frmZoneBranch
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 24F);
@@ -297,9 +297,9 @@ namespace win_Inspection.FormAuth
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgListBranchs)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgListBranchs)).EndInit();
             this.ResumeLayout(false);
 
         }

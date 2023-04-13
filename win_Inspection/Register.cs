@@ -57,6 +57,7 @@ namespace win_Inspection.FormAuth
             dgListUsers.Columns["PersonnelCode"].HeaderText = "شماره پرسنل";
             dgListUsers.Columns["Username"].HeaderText = "نام کاربری";
             dgListUsers.Columns["NationalCode"].HeaderText = "کد ملی";
+            dgListUsers.Columns["Name"].HeaderText = "نام شعبه";
 
             for (int i = 0; i < dgListUsers.Rows.Count; i += 2)
             {

@@ -50,8 +50,11 @@ namespace win_Inspection.FormAuth
             this.btnEdit = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.dgListBranchs = new System.Windows.Forms.DataGridView();
             this.panel2.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgListBranchs)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -78,6 +81,7 @@ namespace win_Inspection.FormAuth
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.panel4.Controls.Add(this.dgListBranchs);
             this.panel4.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.panel4.Location = new System.Drawing.Point(7, 306);
             this.panel4.Name = "panel4";
@@ -266,6 +270,14 @@ namespace win_Inspection.FormAuth
             this.panel1.Size = new System.Drawing.Size(712, 54);
             this.panel1.TabIndex = 8;
             // 
+            // dgListBranchs
+            // 
+            this.dgListBranchs.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgListBranchs.Location = new System.Drawing.Point(0, 2);
+            this.dgListBranchs.Name = "dgListBranchs";
+            this.dgListBranchs.Size = new System.Drawing.Size(921, 243);
+            this.dgListBranchs.TabIndex = 0;
+            // 
             // frmZoneBranch
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 24F);
@@ -284,8 +296,10 @@ namespace win_Inspection.FormAuth
             this.Load += new System.EventHandler(this.frmZoneBranch_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel4.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgListBranchs)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -313,5 +327,6 @@ namespace win_Inspection.FormAuth
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.DataGridView dgListBranchs;
     }
 }

@@ -170,7 +170,7 @@ namespace win_Inspection.FormAuth
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(54, 24);
             this.label3.TabIndex = 19;
-            this.label3.Text = "کد شعبه";
+            this.label3.Text = "نام شعبه";
             // 
             // txtAddress
             // 
@@ -195,7 +195,7 @@ namespace win_Inspection.FormAuth
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(54, 24);
             this.label2.TabIndex = 17;
-            this.label2.Text = "نام شعبه";
+            this.label2.Text = "کد شعبه";
             // 
             // txtCityName
             // 

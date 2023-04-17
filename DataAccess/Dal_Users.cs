@@ -50,7 +50,7 @@ namespace DataAccess.Auth
 
         public static DataTable GetAll()
         {
-            DataTable dt = ExecuteDataTable(CommandType.Text, "SELECT Id,FirstName,LastName,PersonnelCode,Username,NationalCode FROM Users", null);
+            DataTable dt = ExecuteDataTable(CommandType.Text, "SELECT u.Id,FirstName,LastName,PersonnelCode,Username,NationalCode,Name FROM Users u Inner Join Branchs b ON u.BranchId = b.Code", null);
             if (dt != null && dt.Rows.Count > 0)
                 return dt;
             return null;

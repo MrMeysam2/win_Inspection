@@ -66,7 +66,7 @@ namespace win_Inspection.FormAuth
             this.btnClear.Location = new System.Drawing.Point(255, 201);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(99, 31);
-            this.btnClear.TabIndex = 11;
+            this.btnClear.TabIndex = 12;
             this.btnClear.Text = "پاک کردن";
             this.btnClear.UseVisualStyleBackColor = false;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
@@ -79,7 +79,7 @@ namespace win_Inspection.FormAuth
             this.btnSave.Location = new System.Drawing.Point(570, 201);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(99, 31);
-            this.btnSave.TabIndex = 8;
+            this.btnSave.TabIndex = 9;
             this.btnSave.Text = "ثبت";
             this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
@@ -279,7 +279,7 @@ namespace win_Inspection.FormAuth
             this.comboRoles.Location = new System.Drawing.Point(213, 138);
             this.comboRoles.Name = "comboRoles";
             this.comboRoles.Size = new System.Drawing.Size(184, 32);
-            this.comboRoles.TabIndex = 18;
+            this.comboRoles.TabIndex = 8;
             // 
             // btnDelete
             // 
@@ -288,7 +288,7 @@ namespace win_Inspection.FormAuth
             this.btnDelete.Location = new System.Drawing.Point(360, 201);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(99, 32);
-            this.btnDelete.TabIndex = 10;
+            this.btnDelete.TabIndex = 11;
             this.btnDelete.Text = "حذف";
             this.btnDelete.UseVisualStyleBackColor = false;
             // 
@@ -299,7 +299,7 @@ namespace win_Inspection.FormAuth
             this.btnEdit.Location = new System.Drawing.Point(465, 201);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(99, 32);
-            this.btnEdit.TabIndex = 9;
+            this.btnEdit.TabIndex = 10;
             this.btnEdit.Text = "ویرایش";
             this.btnEdit.UseVisualStyleBackColor = false;
             // 

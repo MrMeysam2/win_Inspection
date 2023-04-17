@@ -8,6 +8,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
+using System.IO;
 
 namespace winTest
 {
@@ -52,12 +55,41 @@ namespace winTest
 
         private void button3_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             Guid Id = Guid.NewGuid();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Document document = new Document();
+
+            PdfWriter.GetInstance(document, new FileStream("C:/Users/test/Desktop/New folder/outputPath.pdf", FileMode.Create));
+
+            document.Open();
+
+            string[] imagePaths =
+                {
+                "C:/Users/test/Desktop/New folder/pic1.jpg",
+                "C:/Users/test/Desktop/New folder/pic2.jpg",
+                "C:/Users/test/Desktop/New folder/pic3.jpg",
+                "C:/Users/test/Desktop/New folder/pic4.jpg"
+            };
+
+            foreach (string imagePath in imagePaths)
+            {
+                iTextSharp.text.Image image = iTextSharp.text.Image.GetInstance(imagePath);
+                image.ScaleToFit(document.PageSize.Height, document.PageSize.Width);
+                document.Add(image);
+            }
+
+            document.Close();
+
+            var content = File.ReadAllBytes("C:/Users/test/Desktop/New folder/outputPath.pdf");
+            var s = Convert.ToBase64String(content);
         }
     }
 }

@@ -43,7 +43,7 @@ namespace win_Inspection
             this.txtUsername.Location = new System.Drawing.Point(300, 191);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(203, 31);
-            this.txtUsername.TabIndex = 0;
+            this.txtUsername.TabIndex = 1;
             // 
             // txtPassword
             // 
@@ -51,7 +51,7 @@ namespace win_Inspection
             this.txtPassword.Location = new System.Drawing.Point(300, 225);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(203, 31);
-            this.txtPassword.TabIndex = 1;
+            this.txtPassword.TabIndex = 2;
             this.txtPassword.UseSystemPasswordChar = true;
             // 
             // btnLogin
@@ -61,7 +61,7 @@ namespace win_Inspection
             this.btnLogin.Location = new System.Drawing.Point(300, 266);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(203, 39);
-            this.btnLogin.TabIndex = 2;
+            this.btnLogin.TabIndex = 3;
             this.btnLogin.Text = "ورود";
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
@@ -96,7 +96,7 @@ namespace win_Inspection
             this.btnClose.Location = new System.Drawing.Point(300, 311);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(203, 39);
-            this.btnClose.TabIndex = 6;
+            this.btnClose.TabIndex = 4;
             this.btnClose.Text = "خروج";
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);

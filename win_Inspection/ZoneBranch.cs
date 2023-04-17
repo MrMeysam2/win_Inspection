@@ -35,6 +35,17 @@ namespace win_Inspection.FormAuth
         private void GetAllBranchs()
         {
             dgListBranchs.DataSource = Bll_Branch.GetAllBranchs();
+            dgListBranchs.Columns["Id"].HeaderText = "شناسه";
+            dgListBranchs.Columns["Code"].HeaderText = "کد شعبه";
+            dgListBranchs.Columns["Name"].HeaderText = "نام شعبه";
+            dgListBranchs.Columns["Tel"].HeaderText = "شماره تماس";
+            dgListBranchs.Columns["Address"].HeaderText = "آدرس";
+            dgListBranchs.Columns["CityName"].HeaderText = "نام شهر";
+
+            for (int i = 0; i < dgListBranchs.Rows.Count; i += 2)
+            {
+                dgListBranchs.Rows[i].DefaultCellStyle.BackColor = Color.Khaki;
+            }
         }
 
         private void GetZones()

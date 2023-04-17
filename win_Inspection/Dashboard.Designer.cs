@@ -50,7 +50,7 @@ namespace win_Inspection.FormAuth
             this.txtRegister.Location = new System.Drawing.Point(43, 189);
             this.txtRegister.Name = "txtRegister";
             this.txtRegister.Size = new System.Drawing.Size(135, 46);
-            this.txtRegister.TabIndex = 3;
+            this.txtRegister.TabIndex = 4;
             this.txtRegister.Text = "ثبت کاربر";
             this.txtRegister.UseVisualStyleBackColor = false;
             this.txtRegister.Click += new System.EventHandler(this.txtRegister_Click);
@@ -105,7 +105,7 @@ namespace win_Inspection.FormAuth
             this.btnZoneBranch.Location = new System.Drawing.Point(43, 137);
             this.btnZoneBranch.Name = "btnZoneBranch";
             this.btnZoneBranch.Size = new System.Drawing.Size(135, 46);
-            this.btnZoneBranch.TabIndex = 2;
+            this.btnZoneBranch.TabIndex = 3;
             this.btnZoneBranch.Text = "سرپرستی و شعب";
             this.btnZoneBranch.UseVisualStyleBackColor = false;
             this.btnZoneBranch.Click += new System.EventHandler(this.btnZoneBranch_Click);
@@ -117,7 +117,7 @@ namespace win_Inspection.FormAuth
             this.btnForms.Location = new System.Drawing.Point(43, 85);
             this.btnForms.Name = "btnForms";
             this.btnForms.Size = new System.Drawing.Size(135, 46);
-            this.btnForms.TabIndex = 1;
+            this.btnForms.TabIndex = 2;
             this.btnForms.Text = "لیست فرم ها";
             this.btnForms.UseVisualStyleBackColor = false;
             this.btnForms.Click += new System.EventHandler(this.btnForms_Click);
@@ -129,7 +129,7 @@ namespace win_Inspection.FormAuth
             this.btnSaveInspection.Location = new System.Drawing.Point(43, 33);
             this.btnSaveInspection.Name = "btnSaveInspection";
             this.btnSaveInspection.Size = new System.Drawing.Size(135, 46);
-            this.btnSaveInspection.TabIndex = 0;
+            this.btnSaveInspection.TabIndex = 1;
             this.btnSaveInspection.Text = "ثبت بازرسی";
             this.btnSaveInspection.UseVisualStyleBackColor = false;
             this.btnSaveInspection.Click += new System.EventHandler(this.btnSaveInspection_Click);

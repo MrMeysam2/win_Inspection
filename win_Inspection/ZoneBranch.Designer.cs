@@ -32,6 +32,7 @@ namespace win_Inspection.FormAuth
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.dgListBranchs = new System.Windows.Forms.DataGridView();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -50,11 +51,10 @@ namespace win_Inspection.FormAuth
             this.btnEdit = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.dgListBranchs = new System.Windows.Forms.DataGridView();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgListBranchs)).BeginInit();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -87,6 +87,15 @@ namespace win_Inspection.FormAuth
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(921, 251);
             this.panel4.TabIndex = 11;
+            // 
+            // dgListBranchs
+            // 
+            this.dgListBranchs.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgListBranchs.Location = new System.Drawing.Point(0, 2);
+            this.dgListBranchs.Name = "dgListBranchs";
+            this.dgListBranchs.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.dgListBranchs.Size = new System.Drawing.Size(921, 243);
+            this.dgListBranchs.TabIndex = 11;
             // 
             // panel3
             // 
@@ -168,7 +177,7 @@ namespace win_Inspection.FormAuth
             this.txtAddress.Location = new System.Drawing.Point(221, 32);
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(163, 31);
-            this.txtAddress.TabIndex = 18;
+            this.txtAddress.TabIndex = 5;
             // 
             // txtCode
             // 
@@ -176,7 +185,7 @@ namespace win_Inspection.FormAuth
             this.txtCode.Location = new System.Drawing.Point(466, 32);
             this.txtCode.Name = "txtCode";
             this.txtCode.Size = new System.Drawing.Size(163, 31);
-            this.txtCode.TabIndex = 16;
+            this.txtCode.TabIndex = 1;
             // 
             // label2
             // 
@@ -193,21 +202,21 @@ namespace win_Inspection.FormAuth
             this.txtCityName.Location = new System.Drawing.Point(466, 133);
             this.txtCityName.Name = "txtCityName";
             this.txtCityName.Size = new System.Drawing.Size(163, 31);
-            this.txtCityName.TabIndex = 15;
+            this.txtCityName.TabIndex = 4;
             // 
             // txtTel
             // 
             this.txtTel.Location = new System.Drawing.Point(466, 100);
             this.txtTel.Name = "txtTel";
             this.txtTel.Size = new System.Drawing.Size(163, 31);
-            this.txtTel.TabIndex = 14;
+            this.txtTel.TabIndex = 3;
             // 
             // txtName
             // 
             this.txtName.Location = new System.Drawing.Point(466, 66);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(163, 31);
-            this.txtName.TabIndex = 13;
+            this.txtName.TabIndex = 2;
             // 
             // comboZones
             // 
@@ -215,7 +224,7 @@ namespace win_Inspection.FormAuth
             this.comboZones.Location = new System.Drawing.Point(221, 66);
             this.comboZones.Name = "comboZones";
             this.comboZones.Size = new System.Drawing.Size(163, 32);
-            this.comboZones.TabIndex = 12;
+            this.comboZones.TabIndex = 6;
             // 
             // btnClear
             // 
@@ -223,7 +232,7 @@ namespace win_Inspection.FormAuth
             this.btnClear.Location = new System.Drawing.Point(255, 201);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(99, 32);
-            this.btnClear.TabIndex = 11;
+            this.btnClear.TabIndex = 10;
             this.btnClear.Text = "پاک کردن";
             this.btnClear.UseVisualStyleBackColor = false;
             // 
@@ -234,7 +243,7 @@ namespace win_Inspection.FormAuth
             this.btnDelete.Location = new System.Drawing.Point(360, 201);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(99, 32);
-            this.btnDelete.TabIndex = 10;
+            this.btnDelete.TabIndex = 9;
             this.btnDelete.Text = "حذف";
             this.btnDelete.UseVisualStyleBackColor = false;
             // 
@@ -245,7 +254,7 @@ namespace win_Inspection.FormAuth
             this.btnEdit.Location = new System.Drawing.Point(465, 201);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(99, 32);
-            this.btnEdit.TabIndex = 9;
+            this.btnEdit.TabIndex = 8;
             this.btnEdit.Text = "ویرایش";
             this.btnEdit.UseVisualStyleBackColor = false;
             // 
@@ -256,7 +265,7 @@ namespace win_Inspection.FormAuth
             this.btnSave.Location = new System.Drawing.Point(569, 201);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(99, 32);
-            this.btnSave.TabIndex = 8;
+            this.btnSave.TabIndex = 7;
             this.btnSave.Text = "ثبت";
             this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
@@ -269,14 +278,6 @@ namespace win_Inspection.FormAuth
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(712, 54);
             this.panel1.TabIndex = 8;
-            // 
-            // dgListBranchs
-            // 
-            this.dgListBranchs.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgListBranchs.Location = new System.Drawing.Point(0, 2);
-            this.dgListBranchs.Name = "dgListBranchs";
-            this.dgListBranchs.Size = new System.Drawing.Size(921, 243);
-            this.dgListBranchs.TabIndex = 0;
             // 
             // frmZoneBranch
             // 
@@ -297,9 +298,9 @@ namespace win_Inspection.FormAuth
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgListBranchs)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgListBranchs)).EndInit();
             this.ResumeLayout(false);
 
         }
